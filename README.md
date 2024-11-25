@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quickforms 🛠️
 
-## Getting Started
+Quickforms is a powerful and intuitive form builder that allows developers to create beautiful, responsive forms with ease. Built using Next.js, Shadcn UI components, and DND Kit, Quickforms provides a seamless drag-and-drop interface to craft forms and generate clean React code.
 
-First, run the development server:
+## ✨ Features
 
+- **Drag & Drop Interface** - Easily arrange form fields using intuitive drag and drop functionality
+- **Rich Form Components** - Includes text, textarea, select, checkbox, radio, slider, date picker and more
+- **Real-time Preview** - See your form take shape with an instant live preview
+- **Code Generation** - Export clean, production-ready React code for your forms
+- **Responsive Design** - Forms work seamlessly across all device sizes
+- **Theme Support** - Built-in light and dark mode support
+- **Undo/Redo** - Full history management for your form editing
+- **Field Customization** - Customize placeholders, validation, options and more
+- **Accessible** - Built with accessibility in mind following WCAG guidelines
+
+## 🚀 Getting Started
+
+Clone the repository:
 ```bash
+git clone https://github.com/000-KunalPal/Quickforms
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧩 Supported Field Types
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Text Input
+Textarea
+Number Input
+Select Dropdown
+Switch Toggle
+Checkbox
+Radio Group
+Slider
+Date Picker
+File Upload
+Color Picker
 
-## Learn More
+🎨 Customization
+Quickforms uses Shadcn UI components which can be fully customized using Tailwind CSS classes. The theme can be modified through the built-in theme configuration.
 
-To learn more about Next.js, take a look at the following resources:
+⌨️ Key Commands
+Ctrl/Cmd + Z: Undo last action
+Ctrl/Cmd + Y: Redo last action
+Delete: Remove selected field
+Drag: Reorder fields
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🤝 Contributing
+Contributions are welcome! Please read our contributing guidelines to get started.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Fork the repository
+Create your feature branch (git checkout -b feature/amazing-feature)
+Commit your changes (git commit -m 'Add some amazing feature')
+Push to the branch (git push origin feature/amazing-feature)
+Open a Pull Request
 
-## Deploy on Vercel
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+💖 Acknowledgments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Shadcn UI for the beautiful components
+DND Kit for the drag and drop functionality
+Next.js for the React framework
+Tailwind CSS for styling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ by Kunal Pal
